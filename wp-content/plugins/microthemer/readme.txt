@@ -79,6 +79,12 @@ I've been happily developing Microthemer and supporting users of varying technic
 
 == Changelog ==
 
+= 7.2.4.0 (July 31st, 2023) =
+
+# Bugs fixed
+* Possible error message could display on the frontend if an empty string was passed into a folder logic condition: Cannot parse $parameterString.
+* Microthemer was not targeting draft pages correctly if the Auto folder option was enabled (because the page slug was not yet set).
+
 = 7.2.3.9 (July 26th, 2023) =
 
 # Bugs fixed
